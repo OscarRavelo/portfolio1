@@ -1,0 +1,27 @@
+header {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  nav {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    background: rgba(#fff, 0.5);
+    ul {
+      display: flex;
+      margin-left: 5rem;
+      width: 30%;
+      height: 100%;
+      align-items: flex-end;
+      justify-content: space-around;
+      li {
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+
+        &:first-child {
+          border-bottom: 1px solid white;
+        }
+      }
+    }
+  }
+}

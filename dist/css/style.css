@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+}
+
+header nav {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5rem;
+  width: 30%;
+  height: 100%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav ul li {
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+header nav ul li:first-child {
+  border-bottom: 1px solid white;
+}
+
+.one {
+  width: 100%;
+  margin-bottom: 1.7rem;
+  height: 52vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.3))), url(../image/assorted-color-wooden-house-on-mountain-789380.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(../image/assorted-color-wooden-house-on-mountain-789380.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.one__title {
+  margin-bottom: 1.3rem;
+  font-size: 2.5rem;
+  font-weight: 100;
+  max-width: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  margin-top: 5rem;
+}
+
+.one__title span {
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 0.5rem;
+}
+
+.one__title span:last-child {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid white;
+  width: 260px;
+  margin: 0 auto;
+}
+
+.one__text {
+  color: white;
+  text-align: center;
+  max-width: 40vw;
+  margin-bottom: 1.5rem;
+}
+
+.one__buttons {
+  width: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.one__buttons span {
+  text-align: center;
+  width: 30%;
+  background: white;
+  min-width: 1rem;
+  height: 1rem;
+}
+
+.two {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.two__text {
+  width: 30%;
+  margin-left: -0.5rem;
+  line-height: 23px;
+  font-weight: normal;
+  color: gray;
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-right: 0.7rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.two__items {
+  margin-top: 0;
+  padding-top: 5px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.two__item {
+  width: 30%;
+}
+
+.two__item .two__image {
+  max-width: 100%;
+  height: 200px;
+}
+
+body {
+  width: 100vw;
+}
+
+main {
+  width: 70vw;
+  margin: 0 auto;
+}

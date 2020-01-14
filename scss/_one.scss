@@ -1,0 +1,52 @@
+.one {
+  width: 100%;
+  margin-bottom: 1.7rem;
+  height: 52vh;
+  background: linear-gradient(to right, rgba(#000, 0.9), rgba(#000, 0.3)),
+    url(../image/assorted-color-wooden-house-on-mountain-789380.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__title {
+    margin-bottom: 1.3rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 5rem;
+    span {
+      text-align: center;
+      font-weight: 100;
+      padding-bottom: 0.5rem;
+      &:last-child {
+        padding-bottom: 1rem;
+        border-bottom: 2px solid white;
+        width: 260px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &__text {
+    color: white;
+    text-align: center;
+    max-width: 40vw;
+    margin-bottom: 1.5rem;
+  }
+
+  &__buttons {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    span {
+      text-align: center;
+      width: 30%;
+      background: white;
+      min-width: 1rem;
+      height: 1rem;
+    }
+  }
+}
